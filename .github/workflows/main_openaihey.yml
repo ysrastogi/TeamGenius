@@ -65,6 +65,6 @@ jobs:
           app-name: 'openaihey'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B40425D3DC2E4725AFBB218706886E3D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_64671D3A111C431DBDC8F5B52E581FA9 }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
